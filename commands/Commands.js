@@ -17,10 +17,12 @@ static StartPing = () => {
             exec(command, (error, stdout, stderr) => {
                 if(error) {
                     console.log("Não foi possível contatar o host informado.");
+                    this.StartPing()
                     return;
                 }
                 if(stderr){
                     console.log("Não foi possível contatar o host informado.");
+                    this.StartPing();
                     return;
                 }
             rl.question("Software selecionado e hostname online. Deseja prosseguir com a instalação? S/N \n", (answer) => {
