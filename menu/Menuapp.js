@@ -1,4 +1,4 @@
-const Softwares = require("../commands/Softwares");
+const Softwares = require("../services/Softwares");
 const Input = require("../Inputs/Input");
 
 class Menuapp{

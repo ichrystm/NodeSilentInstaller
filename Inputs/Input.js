@@ -4,7 +4,7 @@ class Input{
     static ReadSoftware = () => {
     var selectedSoftware;
     var selectedHost;
-    const Softwares = require("../commands/Softwares");
+    const Softwares = require("../services/Softwares");
     const Commands = require("../commands/Commands");
     const readline = require("readline");
     const rl = readline.createInterface({
