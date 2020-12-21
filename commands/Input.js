@@ -22,7 +22,6 @@ class Input{
                 var selectedSoftware = Softwares.RefSoftware(option);
                 console.log(option);
                 Commands.StartPing();
-                //rl.close();
         }
     });
 }
