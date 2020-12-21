@@ -1,5 +1,5 @@
-const Softwares = require("./Softwares");
-const Input = require("./Input");
+const Softwares = require("../commands/Softwares");
+const Input = require("../Inputs/Input");
 
 class Menuapp{
     static Menu = () => {

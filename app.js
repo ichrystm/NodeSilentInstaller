@@ -1,3 +1,3 @@
-const Menu = require("./commands/menuapp");
+const Menu = require("./menu/Menuapp");
 
 Menu;

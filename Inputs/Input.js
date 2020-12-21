@@ -4,9 +4,8 @@ class Input{
     static ReadSoftware = () => {
     var selectedSoftware;
     var selectedHost;
-    //const Commandlines = require("./commandlines");
-    const Softwares = require("./Softwares");
-    const Commands = require("./Commands");
+    const Softwares = require("../commands/Softwares");
+    const Commands = require("../commands/Commands");
     const readline = require("readline");
     const rl = readline.createInterface({
         input: process.stdin,

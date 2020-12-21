@@ -1,4 +1,4 @@
-const Input = require("./Input");
+const Input = require("../Inputs/Input");
 
 var softwareList = [
     {
